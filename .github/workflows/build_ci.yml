@@ -11,6 +11,7 @@ on:
   schedule:
     # At 02:30 on Saturday
     - cron:  '30 2 * * 6'
+  workflow_dispatch:
 
 jobs:
 
