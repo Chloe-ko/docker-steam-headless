@@ -52,7 +52,7 @@ jobs:
         echo  "FLAVOUR='${FLAVOUR}'"
         echo  "GITHUB_REF='${GITHUB_REF}'"
         echo  "GITHUB_REPOSITORY='${GITHUB_REPOSITORY}'"
-        DOCKER_IMAGE=docker.io/josh5/steam-headless
+        DOCKER_IMAGE=docker.io/neneya/steam-headless
         VERSION_TAG=${GITHUB_REF#refs/*/}
         DOCKER_TAGS=""
         if [[ ${VERSION_TAG%/merge} == 'master' ]]; then
